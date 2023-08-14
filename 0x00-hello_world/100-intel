@@ -1,6 +1,2 @@
 #!/bin/bash
-int main(void)
-{
-gcc -c $CFILE -o "${CFILE%.c}.s";
-return (0);
-}
+gcc -S -masm-intel $CFILE -o "${CFILE%.c}.s"
