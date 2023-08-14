@@ -1,2 +1,6 @@
 #!/bin/bash
-gcc -c $CFILE -o "${CFILE%.c}.s"
+int main(void)
+{
+gcc -c $CFILE -o "${CFILE%.c}.s";
+return (0);
+}
