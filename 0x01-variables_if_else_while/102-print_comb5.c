@@ -6,41 +6,28 @@
  */
 int main(void)
 {
-	int n,m,l,k;
-	for ( n = 48; m < 58 ; m++)
-	{
-		for ( n = 48; n < 58; n++)
-		{
-			for ( l = 48; l < 58; l++)
-			{
-				for ( k = 49; k < 58; k++)
-				{
-					if ( k > l &&  m > n)
-					{
-						puchar (m);
-                                                puchar (n);
-                                                puchar (' ');
-                                                puchar (l);
-                                                puchar (k);
-						if ( n != 56 || m !=57 )
-						{
-							puchar(';');
-							puchar(' ');
-						}
-					
-					}
+    int num1, num2;
 
-					
-				}
-			}
-		
-		
-		}
-	
-	
-	}
-	puchar('\n');
-	return (0) ;
+    for (num1 = 0; num1 < 100; num1++)
+    {
+        for (num2 = num1 + 1; num2 < 100; num2++)
+        {
+            putchar((num1 / 10) + '0'); // Print tens digit of num1
+            putchar((num1 % 10) + '0'); // Print ones digit of num1
+            putchar(' ');
+            putchar((num2 / 10) + '0'); // Print tens digit of num2
+            putchar((num2 % 10) + '0'); // Print ones digit of num2
 
+            // If num1 and num2 are not the last combinations, print comma and space
+            if (num1 != 98 || num2 != 99)
+            {
+                putchar(',');
+                putchar(' ');
+            }
+        }
+    }
 
-}
+    putchar('\n');
+
+    return (0);
+} 
