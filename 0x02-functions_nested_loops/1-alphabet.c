@@ -1,8 +1,8 @@
 # include "main.h"
+# include <stdio.h>
 /*
- * main - function print alphabet in lowercase
+ * main -  write a  function that prints the alphabet, in lowercase
  * followed by newline
- * Return:0(success)
  */
 void print_alphabet(void)
 {
