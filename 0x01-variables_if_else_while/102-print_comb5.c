@@ -15,11 +15,22 @@ int main(void)
 			{
 				for ( k = 49; k < 58; k++)
 				{
-					puchar (m);
-					puchar (n);
-					puchar (' ');
-					puchar (l);
-					puchar (k);
+					if ( k > l &&  m > n)
+					{
+						puchar (m);
+                                                puchar (n);
+                                                puchar (' ');
+                                                puchar (l);
+                                                puchar (k);
+						if ( n != 56 || m !=57 )
+						{
+							puchar(';');
+							puchar(' ');
+						}
+					
+					}
+
+					
 				}
 			}
 		
