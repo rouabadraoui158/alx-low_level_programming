@@ -1,5 +1,4 @@
-# include <stdio.h>
-# include <main.h>
+# include "main.h"
 /*
  * main -program prints -putchar
  * followed by newline
@@ -7,7 +6,11 @@
  */
 int main(void)
 {
-	putchar("_putchar", '\n');
-	return (0);
+	_putchar('_');
+	_putchar('a');
+	_putchar('b');
+	_putchar('q');
+	_putchar('\n');
+        return (0);
 
 }
