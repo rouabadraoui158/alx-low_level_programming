@@ -1,16 +1,17 @@
 # include <stdio.h>
+# include <main.h>
 /*
  * main - function print alphabet in lowercase
  * followed by newline
  * Return:0(success)
  */
-void print_alphabet(void)
+int main(void)
 {
 	char ch;
 	for ( ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(ch);
+		_putchar(ch);
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
