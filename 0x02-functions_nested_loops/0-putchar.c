@@ -1,16 +1,19 @@
 # include "main.h"
 /*
- * main -program prints -putchar
+ * main - programming print _putchar
  * followed by newline
- * Return:0(success)
+ * Return 0 (success)
  */
 int main(void)
 {
 	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
 	_putchar('a');
-	_putchar('b');
-	_putchar('q');
+	_putchar('r');
 	_putchar('\n');
-        return (0);
-
+	return (0);
 }
