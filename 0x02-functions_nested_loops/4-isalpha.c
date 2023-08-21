@@ -1,10 +1,10 @@
 #include "main.h"
-/*
- * main - a function that checks for alphabetic character.
- * Returns 1 if c is a letter, lowercase or uppercase
- * Returns 0 otherwise
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
  */
-int main(void)
+int _isalpha(int c)
 {
-	_isalpha();
+	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 }
