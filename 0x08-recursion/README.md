@@ -1,4 +1,4 @@
-0x08. C - Recursion
+0x08-recursion
 
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
