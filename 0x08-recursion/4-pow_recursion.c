@@ -15,11 +15,11 @@ if (y < 0)
 }
 else if (y == 0)
 {
-	return 1;
+	return (1);
 }
 else
 {
-	pow = x * _pow_recursion(x,y - 1);
+	pow = x * _pow_recursion(x, y - 1);
 }
 return (pow);
 }
